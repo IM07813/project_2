@@ -1,0 +1,4 @@
+In this project, we have utilized a dataset sourced from Kaggle, which comprises X-ray images categorized as either normal or indicative of
+pneumonia. By employing a Convolutional Neural Network (CNN) model and leveraging transfer learning techniques, we have been able to
+enhance the prediction accuracy while reducing the number of required epochs for training. Further details and explanations regarding the
+methodology and implementation can be found within the accompanying IPython Notebook (ipynb) file.

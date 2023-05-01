@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js" defer></script>
+    <title>X-ray Classification</title>
+</head>
+<body>
+    <h1>X-ray Classification</h1>
+    <form id="upload-form" action="/" method="post" enctype="multipart/form-data">
+        <input type="file" id="image-input" name="image" accept="image/*" required>
+        <img id="image-preview" src="" alt="Image preview" style="display:none;max-width:300px;">
+        <button type="submit">Predict</button>
+    </form>
+    <div id="loading-spinner" style="display:none;">
+        <p>Loading...</p>
+    </div>
+</body>
+</html>
